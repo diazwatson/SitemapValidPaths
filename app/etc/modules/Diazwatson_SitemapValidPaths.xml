@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Diazwatson_SitemapValidPaths
+ *
+ * @category    Diazwatson
+ * @package     Diazwatson_SitemapValidPaths
+ * @Date        02/2015
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @author      @diazwatson
+ */-->
+<config>
+    <modules>
+        <Diazwatson_SitemapValidPaths>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Adminhtml/>
+            </depends>
+        </Diazwatson_SitemapValidPaths>
+    </modules>
+</config>

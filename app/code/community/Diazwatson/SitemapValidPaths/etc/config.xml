@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Diazwatson_SitemapValidPaths
+ *
+ * @category    Diazwatson
+ * @package     Diazwatson_SitemapValidPaths
+ * @Date        02/2015
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @author      @diazwatson
+ */-->
+<config>
+    <modules>
+        <Diazwatson_SitemapValidPaths>
+            <version>0.0.1</version>
+        </Diazwatson_SitemapValidPaths>
+    </modules>
+    <default>
+        <general>
+            <file>
+                <sitemap_generate_valid_paths>
+                    <!-- This data should be merged with public_files_valid_paths -->
+                    <available>
+                        <any_path>/*/sitemap.xml</any_path>
+                    </available>
+                </sitemap_generate_valid_paths>
+            </file>
+        </general>
+    </default>
+</config>
